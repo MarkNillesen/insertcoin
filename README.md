@@ -1,2 +1,2 @@
 # insertcoin
-Website van gekozen game
+Website van gekozen game(Minecraft)
