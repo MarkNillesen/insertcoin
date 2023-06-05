@@ -1,0 +1,44 @@
+form {
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+}
+  
+label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    width: 146px;
+    display: inline-block;
+    font-size: large;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"], textarea {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+  
+textarea {
+    height: 100px;
+    resize: none;
+}
+  
+input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: x-large;
+    color: #E0FFFF;
+}
+
+p {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #E0FFFF;
+    margin-bottom: 20px;
+}

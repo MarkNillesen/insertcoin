@@ -1,0 +1,97 @@
+h2{
+    font-size: xx-large;
+    text-align: center;
+    padding: 9px 25px;
+    background: #000000;
+    font-size: 20px;
+    color: #008000;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s ease 0s;  
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.app_wrap {
+    
+    position: fixed;
+    top: 20%;
+    left: 5%;
+}
+
+.app_wrap h2 {
+    font-size: 2.2rem;
+    color: #0f1923;
+}
+
+#img1 {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 60px;
+    width: 250px;
+    height: 300px;
+}
+
+.imgBox {
+    position: relative;
+    z-index: 1000;
+}
+
+
+#img2 {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 80px;
+    width: 250px;
+    height: 300px;
+}
+
+.imgBox1 {
+    position: relative;
+    z-index: 1000;
+}
+
+.block2 {
+    background-color: #008000;
+    padding: 1px;
+    width: 440px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: "Montserrat", "sans-serif";
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.img-text{
+    text-align: left;
+    margin-top: 160px;
+    margin-left: 550px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat", "sans-serif";
+}
+
+.img-text1{
+    text-align: center;
+    margin-top: -2px;
+    margin-left: 700px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat", "sans-serif" ;
+}
